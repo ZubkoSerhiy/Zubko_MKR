@@ -1,21 +1,15 @@
-def cyclic_distance(char1, char2):
+from itertools import permutations
 
-    dist = abs(ord(char1) - ord(char2))
-    return min(dist, 26 - dist)
-
-def total_cyclic_distance(sa, sb):
-
-    return sum(cyclic_distance(sa[i], sb[i]) for i in range(len(sa)))
-
-def main():
-    with open("INPUT.TXT", "r") as f:
-        lines = f.read().splitlines()
+def find_position(N, K, placement):
     
-    sa, sb = lines[0], lines[1]
+    all_permutations = sorted(permutations(range(1, N + 1), K))
+    position = all_permutations.index(tuple(placement)) + 1
+    return position
 
-    result = total_cyclic_distance(sa, sb)
-    with open("OUTPUT.TXT", "w") as f:
-        f.write(str(result))
+with open("INPUT.TXT", "r") as infile:
+    N, K = map(int, infile.readline().split())
+    placement = list(map(int, infile.readline().split()))
 
-if __name__ == "__main__":
-    main()
+result = find_position(N, K, placement)
+with open("OUTPUT.TXT", "w") as outfile:
+    outfile.write(str(result))
