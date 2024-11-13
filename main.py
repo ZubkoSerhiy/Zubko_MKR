@@ -8,7 +8,6 @@ def total_cyclic_distance(sa, sb):
     return sum(cyclic_distance(sa[i], sb[i]) for i in range(len(sa)))
 
 def main():
-
     with open("INPUT.TXT", "r") as f:
         lines = f.read().splitlines()
     
