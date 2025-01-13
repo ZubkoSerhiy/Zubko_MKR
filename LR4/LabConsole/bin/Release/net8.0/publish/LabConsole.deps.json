@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "LabConsole/1.0.0": {
+        "dependencies": {
+          "LabLibrary": "1.0.0"
+        },
+        "runtime": {
+          "LabConsole.dll": {}
+        }
+      },
+      "LabLibrary/1.0.0": {
+        "runtime": {
+          "LabLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LabConsole/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LabLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,11 @@
+C:\Users\zubko\source\repos\LR6\LabLibrary\bin\Debug\net6.0\LabLibrary.deps.json
+C:\Users\zubko\source\repos\LR6\LabLibrary\bin\Debug\net6.0\LabLibrary.dll
+C:\Users\zubko\source\repos\LR6\LabLibrary\bin\Debug\net6.0\LabLibrary.pdb
+C:\Users\zubko\source\repos\LR6\LabLibrary\obj\Debug\net6.0\LabLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zubko\source\repos\LR6\LabLibrary\obj\Debug\net6.0\LabLibrary.AssemblyInfoInputs.cache
+C:\Users\zubko\source\repos\LR6\LabLibrary\obj\Debug\net6.0\LabLibrary.AssemblyInfo.cs
+C:\Users\zubko\source\repos\LR6\LabLibrary\obj\Debug\net6.0\LabLibrary.csproj.CoreCompileInputs.cache
+C:\Users\zubko\source\repos\LR6\LabLibrary\obj\Debug\net6.0\LabLibrary.dll
+C:\Users\zubko\source\repos\LR6\LabLibrary\obj\Debug\net6.0\refint\LabLibrary.dll
+C:\Users\zubko\source\repos\LR6\LabLibrary\obj\Debug\net6.0\LabLibrary.pdb
+C:\Users\zubko\source\repos\LR6\LabLibrary\obj\Debug\net6.0\ref\LabLibrary.dll

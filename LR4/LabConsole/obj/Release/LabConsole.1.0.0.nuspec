@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>LabConsole</id>
+    <version>1.0.0</version>
+    <authors>S_Zubko</authors>
+    <description>Launches console for lab 4</description>
+    <packageTypes>
+      <packageType name="DotnetTool" />
+    </packageTypes>
+    <repository type="git" />
+  </metadata>
+  <files>
+    <file src="C:\Users\zubko\source\repos\LR4\LabConsole\obj\DotnetToolSettings.xml" target="tools\net8.0\any\DotnetToolSettings.xml" />
+    <file src="C:\Users\zubko\source\repos\LR4\LabConsole\bin\Release\net8.0\publish\LabConsole.dll" target="tools\net8.0\any\LabConsole.dll" />
+    <file src="C:\Users\zubko\source\repos\LR4\LabConsole\bin\Release\net8.0\publish\LabConsole.deps.json" target="tools\net8.0\any\LabConsole.deps.json" />
+    <file src="C:\Users\zubko\source\repos\LR4\LabConsole\bin\Release\net8.0\publish\LabConsole.runtimeconfig.json" target="tools\net8.0\any\LabConsole.runtimeconfig.json" />
+    <file src="C:\Users\zubko\source\repos\LR4\LabConsole\bin\Release\net8.0\publish\LabConsole.pdb" target="tools\net8.0\any\LabConsole.pdb" />
+    <file src="C:\Users\zubko\source\repos\LR4\LabConsole\bin\Release\net8.0\publish\LabLibrary.dll" target="tools\net8.0\any\LabLibrary.dll" />
+    <file src="C:\Users\zubko\source\repos\LR4\LabConsole\bin\Release\net8.0\publish\LabLibrary.pdb" target="tools\net8.0\any\LabLibrary.pdb" />
+  </files>
+</package>

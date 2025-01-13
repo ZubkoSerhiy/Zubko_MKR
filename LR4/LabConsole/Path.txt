@@ -1,0 +1,16 @@
+﻿C:\Users\zubko\LR4_shared\LR1\INPUT.txt
+C:\Users\zubko\LR4_shared\LR1\OUTPUT.txt
+C:\Users\zubko\LR4_shared\LR2\INPUT.txt
+C:\Users\zubko\LR4_shared\LR2\OUTPUT.txt
+C:\Users\zubko\LR4_shared\LR3\INPUT.txt
+C:\Users\zubko\LR4_shared\LR3\OUTPUT.txt
+
+labconsole run lab1 -i /media/sf_LR4_shared/LR1/INPUT.txt -o /media/sf_LR4_shared/LR1/OUTPUT.txt
+labconsole run lab2 -i /media/sf_LR4_shared/LR2/INPUT.txt -o /media/sf_LR4_shared/LR2/OUTPUT.txt
+labconsole run lab3 -i /media/sf_LR4_shared/LR3/INPUT.txt -o /media/sf_LR4_shared/LR3/OUTPUT.txt
+
+labconsole run lab1 -i /Users/vagrant/LR4_shared/LR1/INPUT.txt -o /Users/vagrant/LR4_shared/LR1/OUTPUT.txt
+labconsole run lab2 -i /Users/vagrant/LR4_shared/LR2/INPUT.txt -o /Users/vagrant/LR4_shared/LR2/OUTPUT.txt
+labconsole run lab3 -i /Users/vagrant/LR4_shared/LR3/INPUT.txt -o /Users/vagrant/LR4_shared/LR3/OUTPUT.txt
+
+dotnet LabConsole.exe lab3 -i /Users/source/repos/LR3/LR3/INPUT.txt -o /Users/source/repos/LR3/LR3/OUTPUT.txt
