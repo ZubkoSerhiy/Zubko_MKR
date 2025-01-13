@@ -1,0 +1,14 @@
+Vagrant.configure("2") do |config|
+  config.vm.box = "ubuntu/focal64"
+  config.vm.hostname = "linux-vm"
+
+  config.vm.network "private_network", type: "dhcp"
+  config.vm.provider "virtualbox" do |vb|
+    vb.memory = "2048"
+    vb.cpus = 2
+  end
+
+  config.vm.provision "shell", path: "C:/Users/zubko/vagrant_vms/provisioning/linux_setup.sh"
+  config.vm.synced_folder "C:/Users/zubko/LR4_shared", "/media/sf_LR4_shared"
+
+end
