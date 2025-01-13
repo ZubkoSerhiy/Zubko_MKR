@@ -1,0 +1,7 @@
+C:\Users\zubko\source\repos\LR4\LabConsole\bin\Release\net8.0\publish\LabConsole.exe
+C:\Users\zubko\source\repos\LR4\LabConsole\bin\Release\net8.0\publish\LabConsole.dll
+C:\Users\zubko\source\repos\LR4\LabConsole\bin\Release\net8.0\publish\LabConsole.deps.json
+C:\Users\zubko\source\repos\LR4\LabConsole\bin\Release\net8.0\publish\LabConsole.runtimeconfig.json
+C:\Users\zubko\source\repos\LR4\LabConsole\bin\Release\net8.0\publish\LabConsole.pdb
+C:\Users\zubko\source\repos\LR4\LabConsole\bin\Release\net8.0\publish\LabLibrary.dll
+C:\Users\zubko\source\repos\LR4\LabConsole\bin\Release\net8.0\publish\LabLibrary.pdb

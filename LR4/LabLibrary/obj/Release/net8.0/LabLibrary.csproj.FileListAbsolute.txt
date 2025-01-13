@@ -1,0 +1,11 @@
+C:\Users\zubko\source\repos\LR4\LabLibrary\bin\Release\net8.0\LabLibrary.deps.json
+C:\Users\zubko\source\repos\LR4\LabLibrary\bin\Release\net8.0\LabLibrary.dll
+C:\Users\zubko\source\repos\LR4\LabLibrary\bin\Release\net8.0\LabLibrary.pdb
+C:\Users\zubko\source\repos\LR4\LabLibrary\obj\Release\net8.0\LabLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zubko\source\repos\LR4\LabLibrary\obj\Release\net8.0\LabLibrary.AssemblyInfoInputs.cache
+C:\Users\zubko\source\repos\LR4\LabLibrary\obj\Release\net8.0\LabLibrary.AssemblyInfo.cs
+C:\Users\zubko\source\repos\LR4\LabLibrary\obj\Release\net8.0\LabLibrary.csproj.CoreCompileInputs.cache
+C:\Users\zubko\source\repos\LR4\LabLibrary\obj\Release\net8.0\LabLibrary.dll
+C:\Users\zubko\source\repos\LR4\LabLibrary\obj\Release\net8.0\refint\LabLibrary.dll
+C:\Users\zubko\source\repos\LR4\LabLibrary\obj\Release\net8.0\LabLibrary.pdb
+C:\Users\zubko\source\repos\LR4\LabLibrary\obj\Release\net8.0\ref\LabLibrary.dll
