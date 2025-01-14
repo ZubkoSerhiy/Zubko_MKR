@@ -1,0 +1,1 @@
+{"virtualbox":{"C:/Users/vagrant/LR4_shared":{"guestpath":"C:/Users/vagrant/LR4_shared","hostpath":"C:/Users/zubko/LR4_shared","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Users/zubko/vagrant_vms/windows","disabled":false,"__vagrantfile":true}}}

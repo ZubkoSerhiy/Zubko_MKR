@@ -1,0 +1,12 @@
+Vagrant.configure("2") do |config|
+  config.vm.box = "gusztavvargadr/windows-10"
+  config.vm.hostname = "windows-vm"
+
+  config.vm.provider "virtualbox" do |vb|
+    vb.memory = "4096"
+    vb.cpus = 2
+  end
+
+  config.vm.provision "shell", path: "C:/Users/zubko/vagrant_vms/provisioning/windows_setup.ps1"
+  config.vm.synced_folder "C:/Users/zubko/LR4_shared", "C:/Users/vagrant/LR4_shared"
+end

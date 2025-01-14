@@ -1,0 +1,1 @@
+{"virtualbox":{"/media/sf_LR4_shared":{"guestpath":"/media/sf_LR4_shared","hostpath":"C:/Users/zubko/LR4_shared","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Users/zubko/vagrant_vms/linux","disabled":false,"__vagrantfile":true}}}
