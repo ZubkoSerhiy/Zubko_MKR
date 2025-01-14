@@ -104,3 +104,4 @@ C:\Users\zubko\source\repos\LR2\LR2.Tests\obj\Debug\net8.0\refint\LR2.Tests.dll
 C:\Users\zubko\source\repos\LR2\LR2.Tests\obj\Debug\net8.0\LR2.Tests.pdb
 C:\Users\zubko\source\repos\LR2\LR2.Tests\obj\Debug\net8.0\LR2.Tests.genruntimeconfig.cache
 C:\Users\zubko\source\repos\LR2\LR2.Tests\obj\Debug\net8.0\ref\LR2.Tests.dll
+C:\Users\zubko\source\repos\LR2\LR2.Tests\obj\Debug\net8.0\LR2.Tests.sourcelink.json

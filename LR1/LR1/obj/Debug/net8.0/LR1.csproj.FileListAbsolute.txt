@@ -13,3 +13,4 @@ C:\Users\zubko\source\repos\LR1\LR1\obj\Debug\net8.0\refint\LR1.dll
 C:\Users\zubko\source\repos\LR1\LR1\obj\Debug\net8.0\LR1.pdb
 C:\Users\zubko\source\repos\LR1\LR1\obj\Debug\net8.0\LR1.genruntimeconfig.cache
 C:\Users\zubko\source\repos\LR1\LR1\obj\Debug\net8.0\ref\LR1.dll
+C:\Users\zubko\source\repos\LR1\LR1\obj\Debug\net8.0\LR1.sourcelink.json

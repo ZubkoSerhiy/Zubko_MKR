@@ -13,3 +13,4 @@ C:\Users\zubko\source\repos\LR2\LR2\obj\Debug\net8.0\LR2.pdb
 C:\Users\zubko\source\repos\LR2\LR2\obj\Debug\net8.0\LR2.genruntimeconfig.cache
 C:\Users\zubko\source\repos\LR2\LR2\obj\Debug\net8.0\ref\LR2.dll
 C:\Users\zubko\source\repos\LR2\LR2\bin\Debug\net8.0\INPUT.txt
+C:\Users\zubko\source\repos\LR2\LR2\obj\Debug\net8.0\LR2.sourcelink.json

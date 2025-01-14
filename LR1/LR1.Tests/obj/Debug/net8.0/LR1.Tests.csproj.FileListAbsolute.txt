@@ -104,3 +104,4 @@ C:\Users\zubko\source\repos\LR1\LR1.Tests\bin\Debug\net8.0\LR1.Tests.dll
 C:\Users\zubko\source\repos\LR1\LR1.Tests\bin\Debug\net8.0\LR1.Tests.pdb
 C:\Users\zubko\source\repos\LR1\LR1.Tests\obj\Debug\net8.0\LR1.Tests.genruntimeconfig.cache
 C:\Users\zubko\source\repos\LR1\LR1.Tests\obj\Debug\net8.0\ref\LR1.Tests.dll
+C:\Users\zubko\source\repos\LR1\LR1.Tests\obj\Debug\net8.0\LR1.Tests.sourcelink.json

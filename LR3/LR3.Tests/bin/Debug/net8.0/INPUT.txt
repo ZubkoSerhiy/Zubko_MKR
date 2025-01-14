@@ -2,11 +2,9 @@
 1..
 oo.
 oo.
-
 ooo
 ..o
 oo.
-
 ooo
 ooo
 o.2

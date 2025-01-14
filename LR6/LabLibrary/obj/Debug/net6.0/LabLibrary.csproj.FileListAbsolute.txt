@@ -9,3 +9,4 @@ C:\Users\zubko\source\repos\LR6\LabLibrary\obj\Debug\net6.0\LabLibrary.dll
 C:\Users\zubko\source\repos\LR6\LabLibrary\obj\Debug\net6.0\refint\LabLibrary.dll
 C:\Users\zubko\source\repos\LR6\LabLibrary\obj\Debug\net6.0\LabLibrary.pdb
 C:\Users\zubko\source\repos\LR6\LabLibrary\obj\Debug\net6.0\ref\LabLibrary.dll
+C:\Users\zubko\source\repos\LR6\LabLibrary\obj\Debug\net6.0\LabLibrary.sourcelink.json
