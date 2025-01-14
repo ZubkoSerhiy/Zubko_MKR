@@ -1,10 +1,12 @@
 ﻿using LabLibrary;
 using LR6.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json.Linq;
 
 namespace LR6.Controllers
 {
+    [Authorize]
     public class LabController : Controller
     {
         private readonly IWebHostEnvironment _environment;
