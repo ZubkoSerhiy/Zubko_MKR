@@ -85,8 +85,8 @@ namespace LR6.Controllers
             {
                 Username = User.Claims.FirstOrDefault(c => c.Type == "nickname")?.Value,
                 EmailAddress = User.Claims.FirstOrDefault(c => c.Type == "email")?.Value,
-                FullName = User.Claims.FirstOrDefault(c => c.Type == "name")?.Value,
-                PhoneNumber = User.Claims.FirstOrDefault(c => c.Type == "phone_number")?.Value
+                FullName = User.Claims.FirstOrDefault(c => c.Type == "https://localhost:3000/full_name")?.Value,
+                PhoneNumber = User.Claims.FirstOrDefault(c => c.Type == "https://localhost:3000/phone_number")?.Value
             };
             return View(userProfile);
         }
