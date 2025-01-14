@@ -15,10 +15,6 @@ namespace LabConsole
             var command = args[0];
             switch (command)
             {
-                case "version":
-                    PrintVersion();
-                    break;
-
                 case "run":
                     if (args.Length < 2)
                     {
@@ -36,13 +32,6 @@ namespace LabConsole
                     PrintHelp();
                     break;
             }
-        }
-
-        private static void PrintVersion()
-        {
-            Console.WriteLine("LabConsoleApp");
-            Console.WriteLine("Author: Your Name");
-            Console.WriteLine("Version: 1.0.0");
         }
 
         private static void RunLab(string[] args)

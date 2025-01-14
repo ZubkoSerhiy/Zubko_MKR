@@ -1,0 +1,65 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    padding: 20px;
+    margin-bottom: 60px;
+}
+
+.custom-left {
+    left: -80px !important;
+    top: 60px;
+    padding: 4px;
+}
+
+.custom-d {
+    top: 60px;
+}
+
+.labs-flexbox {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.lab-item {
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+    .lab-item h4 {
+        margin-bottom: 10px;
+    }
+
+    .lab-item p {
+        font-size: 14px;
+    }
+
+.index-flexbox {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.index-item {
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}

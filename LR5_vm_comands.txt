@@ -1,0 +1,9 @@
+Створення папки
+mkdir -p /home/vagrant/LR5
+Перенесення файлів застосунку на ВМ
+scp -r C:\Users\zubko\source\repos\LR6\LR6\bin\Release\net6.0\publish\ vagrant@192.168.56.4:/home/vagrant/LR5
+Встановлення дозволів для ключів SSH
+type $HOME\.ssh\id_rsa.pub | ssh vagrant@192.168.56.4 "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys"
+Запуск
+cd /home/vagrant/LR5/publish 
+/usr/bin/dotnet LR6.dll
