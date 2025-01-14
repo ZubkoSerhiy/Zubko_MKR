@@ -37,7 +37,7 @@ namespace LR6
             builder.Services.ConfigureApplicationCookie(options => {
                 options.Cookie.HttpOnly = true;
                 options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
-                options.Cookie.SameSite = SameSiteMode.None; // Додано
+                options.Cookie.SameSite = SameSiteMode.None;
                 options.ExpireTimeSpan = TimeSpan.FromMinutes(60);
                 options.LoginPath = "/Account/Login";
                 options.LogoutPath = "/Account/Logout";
@@ -47,7 +47,7 @@ namespace LR6
             builder.Services.AddAntiforgery(options => 
             {
                 options.Cookie.Name = "X-CSRF-TOKEN";
-                options.Cookie.SameSite = SameSiteMode.None; // Додано
+                options.Cookie.SameSite = SameSiteMode.None;
                 options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
             });
 
@@ -80,7 +80,7 @@ namespace LR6
 
             app.UseCookiePolicy(new CookiePolicyOptions
             {
-                MinimumSameSitePolicy = SameSiteMode.None, // Додано
+                MinimumSameSitePolicy = SameSiteMode.None,
             });
 
             app.MapControllerRoute(
