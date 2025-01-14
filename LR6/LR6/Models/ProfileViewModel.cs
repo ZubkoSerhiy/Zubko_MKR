@@ -13,21 +13,11 @@ namespace LR6.Models
         public string FullName { get; set; }
 
         [Required]
-        [StringLength(16, MinimumLength = 8)]
-        [RegularExpression(@"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^\da-zA-Z]).{8,16}$",
-            ErrorMessage = "The password must be 8 to 16 characters long and include at least one uppercase letter, one lowercase letter, one number, and one special character.")]
-        public string Password { get; set; }
-
-        [Compare("Password")]
-        public string ConfirmPassword { get; set; }
-
-        [Required]
-        [RegularExpression(@"^\+380\d{9}$",
-            ErrorMessage = "Please enter a valid phone number (format: +380XXXXXXXXX)")]
+        [Phone(ErrorMessage = "Please enter a valid phone number.")]
         public string PhoneNumber { get; set; }
 
         [Required]
-        [EmailAddress]
+        [EmailAddress(ErrorMessage = "Please enter a valid email address.")]
         public string EmailAddress { get; set; }
     }
 }

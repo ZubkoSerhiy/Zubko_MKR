@@ -19,27 +19,15 @@ namespace LR6.Controllers
             return View();
         }
 
-        [Authorize]
-        public IActionResult Profile()
+        public IActionResult Privacy()
         {
-            var userProfile = new ProfileViewModel
-            {
-                Username = User.Claims.FirstOrDefault(c => c.Type == "nickname")?.Value,
-                EmailAddress = User.Claims.FirstOrDefault(c => c.Type == "email")?.Value,
-                FullName = User.Claims.FirstOrDefault(c => c.Type == "name")?.Value
-            };
-            return View(userProfile);
+            return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
-
-        public IActionResult Privacy()
-        {
-            return View();
         }
     }
 }

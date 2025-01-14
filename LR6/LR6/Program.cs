@@ -44,7 +44,7 @@ namespace LR6
                 options.SlidingExpiration = true;
             });
 
-            builder.Services.AddAntiforgery(options => 
+            builder.Services.AddAntiforgery(options =>
             {
                 options.Cookie.Name = "X-CSRF-TOKEN";
                 options.Cookie.SameSite = SameSiteMode.None;

@@ -49,3 +49,17 @@ body {
     .lab-item p {
         font-size: 14px;
     }
+
+.index-flexbox {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.index-item {
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
